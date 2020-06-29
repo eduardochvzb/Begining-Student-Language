@@ -1,5 +1,5 @@
 # How to design functions - HtDF.
-
+---
 ## The recipie consists of the following steps.
 
 1. [Signature, purpose and stub.](1)
@@ -7,8 +7,8 @@
 3. [Template and inventory](3)
 4. [Code the function body.](4)
 5. [Test and debug until correct](5)
-
-[#1]: ### Signature, purpose and stub.
+---
+### Signature, purpose and stub.
 
 #### Signature.
 
@@ -48,7 +48,7 @@ It is a function definition:
 (define (double n) 0)
 ```
 
-[#2]: ### Define examples, wrap each in check-expect.
+### Define examples, wrap each in check-expect.
 
 #### Examples/Tests
 
